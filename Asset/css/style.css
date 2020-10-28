@@ -1,0 +1,503 @@
+html,
+body{
+  height: 100%;
+  margin:0;
+  padding:0;
+  background-color:   #DCDCDC;
+  background-size: cover;
+}
+
+
+.card-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.search{  
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.input{
+  width: 100%;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn .fas{
+  padding: 5px 15px;
+}
+.searchbtn{
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.box{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 550px;
+  line-height: 10px;
+  border-radius: 6px;
+}
+.text {
+  text-align: center;
+  color: black;
+  font-weight:  bold;
+  font-family: times;
+  font-size: 12px;
+}
+
+.text1{
+  font-size: 15px;
+}
+
+.box-temuan{
+  background-color:rgba(255,255,255, 0.4); 
+  border-radius: 5px;
+}
+.bd{
+  justify-content: space-between;
+}
+
+  .img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+      position: absolute;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+.img-profile{
+  width: 250px; 
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+
+  .card-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.fa{
+    color: white;
+  }
+
+
+
+
+/*================================================================= USER ========================================================================*/
+
+/*AUTH */
+/*1.index*/
+  body{
+  height: 100%;
+   margin:0;
+   padding:0;
+  background-color:   #DCDCDC;
+  background-size: cover;
+   margin-top: 90px;
+ 
+}
+
+.search{  
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.input{
+  width: 100%;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn .fas{
+  padding: 5px 15px;
+}
+.searchbtn{
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+/*TAMU TEMUAN*/
+/*1.index*/
+.img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+/*TAMU HILANG*/
+/*1.index*/
+  .img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+/*USER*/
+/*1.index*/
+  .search{  
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.input{
+  width: 100%;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn .fas{
+  padding: 5px 15px;
+}
+.searchbtn{
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+/*TEMUAN PENGGUNA*/
+/*1.index*/
+ .img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+/*HILANG PENGGUNA*/
+/*1.index*/
+.img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+/*================================================================== AKHIR =========================================================================*/
+
+/*ADMIN*/
+/*1.index*/
+  .card-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.text{
+  text-transform: uppercase;
+}
+.search{  
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.input{
+  width: 100%;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn .fas{
+  padding: 5px 15px;
+}
+.searchbtn{
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+/*2.admin hilang*/
+ .img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+/*3.admin temuan*/
+.img-profile{
+    width:150px; 
+    height:150px
+  }
+  input[type=checkbox],
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .menu{
+      display:flex;
+      cursor:pointer;
+      justify-content: center;
+    }
+    .menu1{
+      display: none;
+    }
+    input[type=checkbox]:checked ~ .menu1{
+      display:block;
+    }
+
+  }
+  .table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+.card-text{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
